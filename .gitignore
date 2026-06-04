@@ -1,0 +1,126 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+.pnpm-store/
+.npm/
+
+# =========================
+# Build Output
+# =========================
+dist/
+lib/
+es/
+build/
+coverage/
+
+# Rollup Cache
+.rollup.cache
+
+# TypeScript
+*.tsbuildinfo
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE
+# =========================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Test
+# =========================
+coverage/
+.nyc_output/
+
+# Jest
+jest-cache/
+
+# Vitest
+vitest-cache/
+
+# =========================
+# Storybook
+# =========================
+storybook-static/
+
+# =========================
+# TurboRepo
+# =========================
+.turbo/
+
+# =========================
+# Changesets
+# =========================
+.changeset/pre.json
+
+# =========================
+# Cache
+# =========================
+.cache/
+.temp/
+.tmp/
+
+# ESLint
+.eslintcache
+
+# Stylelint
+.stylelintcache
+
+# =========================
+# Local Package Links
+# =========================
+yalc.lock
+.yalc/
+
+# =========================
+# Package Manager
+# =========================
+.pnp.*
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Bun
+bun.lockb
+
+# =========================
+# Generated Types
+# =========================
+types/
+
+# =========================
+# Misc
+# =========================
+*.tgz

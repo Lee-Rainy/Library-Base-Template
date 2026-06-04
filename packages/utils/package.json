@@ -1,0 +1,10 @@
+{
+  "name": "@lib/utils",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
